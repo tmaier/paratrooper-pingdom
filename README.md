@@ -1,6 +1,7 @@
 # Paratrooper - Newrelic Notifier
 
 [![Gem Version](https://badge.fury.io/rb/paratrooper-newrelic.png)](http://badge.fury.io/rb/paratrooper-newrelic)
+[![Code Climate](https://codeclimate.com/github/mattpolito/paratrooper-newrelic.png)](https://codeclimate.com/github/mattpolito/paratrooper-newrelic)
 
 Notify [Newrelic][] to stop application monitoring during deployments when
 using [Paratrooper][]
