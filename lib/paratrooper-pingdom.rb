@@ -8,7 +8,7 @@ module Paratrooper
     #         happening
     #
     class Notifier < Paratrooper::Notifier
-      attr_reader :account_id, :api_key, :application_id
+      attr_reader :app_key, :username, :password
 
       # Public: Initializes PingdomNotifier
       #
