@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'paratrooper-newrelic/version'
+require 'paratrooper-pingdom/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "paratrooper-newrelic"
-  gem.version       = Paratrooper::Newrelic::VERSION
-  gem.authors       = ["Brandon Farmer", "Matt Polito"]
-  gem.email         = ["bthesorceror@gmail.com", "matt.polito@gmail.com"]
-  gem.description   = %q{Send deploy notifications to Newrelic service when deploying with Paratrooper}
-  gem.summary       = %q{Send deploy notifications to Newrelic service when deploying with Paratrooper}
-  gem.homepage      = "http://github.com/mattpolito/paratrooper-newrelic"
+  gem.name          = "paratrooper-pingdom"
+  gem.version       = Paratrooper::Pingdom::VERSION
+  gem.authors       = ["Tobias L. Maier"]
+  gem.email         = ["me@tobiasmaier.info"]
+  gem.description   = %q{Send deploy notifications to Pingdom service when deploying with Paratrooper}
+  gem.summary       = %q{Send deploy notifications to Pingdom service when deploying with Paratrooper}
+  gem.homepage      = "http://github.com/tmaier/paratrooper-pingdom"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

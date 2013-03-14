@@ -1,4 +1,4 @@
-Copyright (c) 2013 Matt Polito
+Copyright (c) 2013 Matt Polito, Tobias L. Maier
 
 MIT License
 
