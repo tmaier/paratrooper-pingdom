@@ -7,10 +7,10 @@ Gem::Specification.new do |gem|
   gem.name          = "paratrooper-pingdom"
   gem.version       = Paratrooper::Pingdom::VERSION
   gem.authors       = ["Tobias L. Maier"]
-  gem.email         = ["me@tobiasmaier.info"]
+  gem.email         = ["tobias.maier@baucloud.com"]
   gem.description   = %q{Send deploy notifications to Pingdom service when deploying with Paratrooper}
   gem.summary       = %q{Send deploy notifications to Pingdom service when deploying with Paratrooper}
-  gem.homepage      = "http://github.com/tmaier/paratrooper-pingdom"
+  gem.homepage      = "https://github.com/tmaier/paratrooper-pingdom"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
